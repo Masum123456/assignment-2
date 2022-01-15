@@ -11,7 +11,7 @@ body{
 
 }
 .container{
-    margin-left:320px;
+    margin-left:280px;
 }
 .Influencer-divide{
     display:flex;
@@ -26,7 +26,40 @@ body{
     padding:10px 24px;/*to decrese button size*/
     color:#FFFFFF;/*text colo*/
     font-weight: 700;/*for bold the font*/
-    border-radius: 5px;/*for rouund the button border*/
+    border-radius: 50px;/*for rouund the button border*/
 }
 /*first part end*/
 /*second part start*/
+.thumbnail img{
+    height:256px;
+    width:300px;
+    border-radius: 5px;
+}
+.product-bottom-info{
+    color:#787885;
+}
+.fa-star.filled{
+    color:#FB8200;
+
+}
+.fa-star{
+    height:10.32px;
+    weight:11.07px;
+}
+.together{
+    display:flex;
+    align-items: center;
+}
+.space{
+    padding-left: 10px;
+}
+/*now copy paste other products*/
+.products{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.seeMore-button{
+    color:#E02C6D;
+    text-decoration:none;
+
+}
