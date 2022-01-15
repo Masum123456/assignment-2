@@ -1,0 +1,32 @@
+/*first part start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    display:flex;
+    justify-content: center;/*to bring element in center*/
+    background-color: #AAAAAA;
+
+}
+.container{
+    margin-left:320px;
+}
+.Influencer-divide{
+    display:flex;
+}
+.camera{
+    width:440px;
+    height:414px;
+}
+.preebook-button{
+    text-decoration: none;
+    background-color:#E02C6D ;
+    padding:10px 24px;/*to decrese button size*/
+    color:#FFFFFF;/*text colo*/
+    font-weight: 700;/*for bold the font*/
+    border-radius: 5px;/*for rouund the button border*/
+}
+/*first part end*/
+/*second part start*/
