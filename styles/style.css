@@ -50,6 +50,10 @@ body{
     color:#FB8200;
 
 }
+.fa-star-half-alt{
+    color:#FB8200;
+
+}
 .fa-star{
     height:10.32px;
     weight:11.07px;
@@ -69,7 +73,6 @@ body{
 .seeMore-button{
     color:#E02C6D;
     text-decoration:none;
-    text-align: end;
 
 }
 /*try my part*/
@@ -89,4 +92,41 @@ body{
     text-align: center;
     
 }
+/*media query for responsive*/
+
+/*for mobile deices*/
+@media only screen and (max-width:688px) {
+    .container{
+        width:100%;
+    }
+    .products{
+        /*background-color: red;*/
+        grid-template-columns: repeat(1,1fr);
+    }
+    .product{
+        flex-direction: column;
+
+    }
+
+    
+}
+/*tablet devices*/
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .container{
+        width:100%;
+    }
+    .products{
+        /*background-color: red;*/
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    .product{
+        flex-direction: column;
+
+    }
+    
+    
+}
+
+
 
